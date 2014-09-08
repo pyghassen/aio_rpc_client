@@ -22,7 +22,7 @@ class RPCClient(object):
 
     def call(self, function_name, *args):
         loop = asyncio.get_event_loop()
-        loop.run_until_complete(
+        return loop.run_until_complete(
             self.__async_call(
                 function_name,
                 *args
