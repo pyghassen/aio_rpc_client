@@ -1,0 +1,5 @@
+-e git+git@github.com:pyghassen/aio_rpc_client.git@491ea744fbce4f9d4da8729de9164f943a0da676#egg=aio_rpc_client-master
+aiozmq==0.5.0
+ipython==2.2.0
+msgpack-python==0.4.2
+pyzmq==14.3.1
